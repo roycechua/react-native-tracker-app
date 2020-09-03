@@ -1,0 +1,2 @@
+# react-native-tracker-app
+Tracker app made from Stephen Griders The Complete React Native + Hooks Course [2020 Edition] on Udemy, so feel free to check that out too to learn the fundamentals about React Native. This app works in connection with a track-server written in Node.js, I'll post a link where you can find it.
