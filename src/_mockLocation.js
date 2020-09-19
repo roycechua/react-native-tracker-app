@@ -14,8 +14,8 @@ const getLocation = increment => {
             // Apple headquarters
             // latitude: 37.33233,
             // longitude: -122.03121,
-            longitude: 37.33233 + increment * tenMetersWithDegrees,
-            latitude: -122.03121 + increment * tenMetersWithDegrees,
+            longitude: 121.0472514 + increment * tenMetersWithDegrees,
+            latitude: 14.6900846 + increment * tenMetersWithDegrees,
         },
     };
 };
