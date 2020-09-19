@@ -11,8 +11,11 @@ const getLocation = increment => {
             accuracy: 5,
             altitudeAccuracy: 5,
             altitude: 5,
-            longitude: -122.0312186 + increment * tenMetersWithDegrees,
-            latitude: 37.33233141 + increment * tenMetersWithDegrees,
+            // Apple headquarters
+            // latitude: 37.33233,
+            // longitude: -122.03121,
+            longitude: 121.0472514 + increment * tenMetersWithDegrees,
+            latitude: 14.6900846 + increment * tenMetersWithDegrees,
         },
     };
 };
