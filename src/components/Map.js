@@ -12,6 +12,8 @@ const Map = () => {
     return <ActivityIndicator size="large" style={{ marginTop: 200 }} />;
   }
 
+  // console.log(currentLocation)
+
   return (
     <MapView
       style={styles.map}
@@ -19,11 +21,6 @@ const Map = () => {
         ...currentLocation.coords,
         latitudeDelta: 0.01,
         longitudeDelta: 0.01
-      }}
-      region={{
-        ...currentLocation.coords,
-        latitudeDelta: 0.01,
-        longitudeDelta: 0.01,
       }}
     >
       <Circle
